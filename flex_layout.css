@@ -1,0 +1,155 @@
+.title{
+	font-size: 24px;
+	font-family: "Microsoft YaHei";
+	line-height: 60px;
+	margin:15px auto;
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+	border:1px solid #DDD;
+} 
+.box {
+    display: flex;
+    border: 1px solid red;
+}
+
+.item {
+    background-color: #CCC;
+    color: #FFF;
+    font-size: 100px;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+
+.item-tall{
+	height: 400px;
+}
+
+.box1 {
+    flex-direction: row;
+}
+
+.box2 {
+    flex-direction: row-reverse;
+}
+
+.box3 {
+    flex-direction: column;
+}
+
+.box4 {
+    flex-direction: column-reverse;
+}
+
+.box5 {
+    flex-wrap: nowrap;
+}
+.box6 {
+    flex-wrap: wrap;
+}
+.box7 {
+    flex-wrap: wrap-reverse;
+}
+.box8 {
+    flex-flow: row wrap;
+}
+
+.box9{
+	justify-content: flex-start;
+}
+.box10{
+	justify-content: flex-end;
+}
+.box11{
+	justify-content: center;
+}
+.box12{
+	justify-content: space-between;
+}
+.box13{
+	justify-content: space-around;
+}
+.box14{
+	align-items: flex-start;
+}
+.box15{
+	align-items: flex-end;
+}
+.box16{
+	align-items: center;
+}
+.box17{
+	align-items: stretch;
+	height: 400px;
+}
+.box17 .item{
+	height: auto;
+}
+.box18{
+	align-items: baseline;
+}
+
+.box19,.box20,.box21,.box22,.box23,.box24{
+	height: 900px;
+	flex-wrap: wrap;
+}
+.box19{
+	align-content:flex-start;
+}
+.box20{
+	align-content:flex-end;
+}
+.box21{
+	align-content:center;
+}
+.box22{
+	align-content:space-between;
+}
+.box23{
+	align-content:space-around;
+}
+.box24{
+	align-content:stretch;
+}
+.box24 .item{
+	height: auto;
+}
+
+.box25 .item4{
+	order: -1;
+}
+.box26 .item{
+	flex-grow: 1;
+}
+.box26 .item2{
+	flex-grow: 3;
+}
+
+.box27 .item{
+	width: 600px;
+}
+.box27 .item2{
+	flex-shrink: 0;
+}
+
+.box28 .item{
+	flex-grow: 1;
+	flex-basis: 100px;
+}
+.box28 .item2{
+	flex-grow: 3;
+
+}
+.box29{
+	flex:auto;
+}
+.box30{
+	flex:none;
+}
+.box31{
+	align-items: flex-start;
+}
+.box31 .item3{
+	align-self: flex-end;
+}
