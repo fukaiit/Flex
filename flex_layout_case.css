@@ -1,0 +1,161 @@
+.title{
+	font-size: 24px;
+	font-family: "Microsoft YaHei";
+	line-height: 60px;
+	margin:15px auto;
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+	border:2px solid #DDD;
+} 
+.block{
+	display: flex;
+	flex-wrap: wrap;
+}
+.placeholder{
+	width: 200px;
+}
+.box {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    box-sizing: border-box;
+    padding:25px;
+    background: #000;
+    border-radius: 20px;
+    margin: 25px;
+}
+
+.item {
+    width: 40px;
+    height: 40px;
+    background: #FFF;
+    border-radius: 50%;
+}
+
+.box2{
+	justify-content: center;
+}
+
+.box3{
+	justify-content: flex-end;
+}
+
+.box4{
+	align-items: center;
+}
+.box5{
+	align-items: center;
+	justify-content: center;
+}
+.box6{
+	align-items: center;
+	justify-content: flex-end;
+}
+.box7{
+	align-items: flex-end;
+}
+.box8{
+	align-items: flex-end;
+	justify-content: center;
+}
+.box9{
+	align-items: flex-end;
+	justify-content: flex-end;
+}
+.box10{
+	justify-content: space-between;
+}
+.box11{
+	flex-direction: column;
+	justify-content: space-between;
+}
+.box12{
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+.box13{
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+.box14{
+	justify-content: space-between;
+}
+.box14 .item:nth-child(2){
+	align-self: center;
+}
+.box14 .item:nth-child(3){
+	background-color: #000;
+}
+.box15{
+	justify-content: space-between;
+}
+.box15 .item:nth-child(2){
+	align-self: flex-end;
+}
+
+.box16{
+	justify-content: space-between;
+}
+.box16 .item:nth-child(2){
+	align-self: center;
+}
+.box16 .item:nth-child(3){
+	align-self: flex-end;
+}
+
+.box17{
+	flex-wrap: wrap;
+	justify-content: space-between;
+	flex-direction: row-reverse;
+}
+.box17 .item:last-child{
+	align-self: flex-end;
+}
+
+.box18{
+	flex-wrap: wrap;
+	align-content: space-between;
+}
+.column{
+	flex-basis: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.box19{
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+}
+
+.box20{
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+}
+
+.box21{
+	flex-wrap: wrap;
+}
+.row{
+	flex-basis: 100%;
+	display: flex;
+}
+.row:nth-child(1){
+	justify-content: space-between;
+}
+.row:nth-child(2){
+	justify-content: center;
+}
+.row:nth-child(3){
+	justify-content: space-between;
+}
+.box22{
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+}
