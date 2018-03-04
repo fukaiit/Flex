@@ -1,5 +1,6 @@
-# Flex布局Demo
-Flex语法预览地址：https://fukaiit.github.io/Flex/      
-Flex布局实例-骰子的布局预览地址：https://fukaiit.github.io/Flex/flex_layout_case.html  
-本Demo基于阮一峰博客文章：[Flex 布局教程：语法篇](http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html)制作。     
-对所有属性及取值进行了测试。
+# Flex布局Demo  
+Flex语法Demo 预览地址：https://fukaiit.github.io/Flex/  
+骰子的布局 预览地址：https://fukaiit.github.io/Flex/flex_layout_case.html  
+圣杯布局 预览地址：https://fukaiit.github.io/Flex/flex_layout_case3.html  
+固定底栏布局 预览地址：https://fukaiit.github.io/Flex/flex_layout_case4.html  
+基本网格布局、百分比布局、输入框的布局、悬挂式布局、流式布局 预览地址：https://fukaiit.github.io/Flex/flex_layout_case2.html  
