@@ -1,0 +1,79 @@
+.title{
+	font-size: 24px;
+	font-family: "Microsoft YaHei";
+	line-height: 60px;
+	margin:15px auto;
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+	border:2px solid #DDD;
+} 
+
+.grid{
+	display: flex;
+}
+
+.cell{
+	height: 100px;
+	background: #DDD;
+	margin: 10px;
+}
+
+.cell1{
+	flex:1;
+}
+
+.cell2{
+	flex:1;
+	height: auto;
+}
+
+.grid1 .cell{
+	flex:1;
+}
+
+.cell.cell_1of2{
+	flex:0 0 50%;
+}
+.cell.cell_1of3{
+	flex:0 0 33.3333%;
+}
+.cell.cell_1of4{
+	flex:0 0 25%;
+}
+
+.input_item{
+	display: flex;
+}
+.field{
+	flex:1;
+}
+
+.media{
+	background-color: #DDD;
+	padding:20px;
+
+	display: flex;
+	align-items: flex-start;
+}
+
+.media_figure{
+	margin-right: 20px;
+}
+
+.media_body{
+	flex:1;
+}
+
+.float_layout{
+	margin: 20px auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.float_layout .item{
+	box-sizing: border-box;
+	border:1px solid red;
+	height: 100px;
+	flex:0 0 25%;
+}

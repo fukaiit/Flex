@@ -1,0 +1,36 @@
+header,footer,.hg_left,.hg_center,.hg_right{
+	background: #DDD;
+	margin:5px;
+}
+
+.holy_grail{
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+header,footer{
+	height: 100px;
+}
+.hg_body{
+	flex:1; 
+	display: flex;
+}
+
+.hg_center{
+	flex:1;
+
+	font-size: 60px;
+	text-align: center;	
+}
+
+.hg_left,.hg_right{
+	flex:0 0 12em;
+}
+@media(max-width: 768px){
+	.hg_body{
+		flex-direction: column;
+	}
+	.hg_left,.hg_center,.hg_right{
+		flex:auto;
+	}
+}

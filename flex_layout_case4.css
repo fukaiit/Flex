@@ -1,0 +1,25 @@
+header,footer,.main_content{
+	background-color: #DDD;
+	margin:10px;
+}
+
+header,footer{
+	height: 60px;
+}
+
+.site{
+	min-height: 100vh;
+
+	display: flex;
+	flex-direction: column;
+}
+
+.main_content{
+	flex:1;
+
+	font-size: 60px;
+}
+
+.main_content span{
+	font-size: 18px;
+}
