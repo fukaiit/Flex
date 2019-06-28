@@ -141,10 +141,10 @@
 	flex-grow: 3;
 
 }
-.box29{
+.box29 .item{
 	flex:auto;
 }
-.box30{
+.box30 .item{
 	flex:none;
 }
 .box31{
